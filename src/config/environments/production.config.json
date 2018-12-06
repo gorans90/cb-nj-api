@@ -6,5 +6,5 @@
     "server": {
         "port": 3004
     },
-    "database" : "mongodb://localhost:27017/chatapp"
+    "database" : "mongodb://ds123799.mlab.com:23799/heroku_w30hqvw9"
 }

@@ -9,7 +9,7 @@ import Database from './config/db/database';
 import path from 'path';
 import CONF from './config/apiConst';
 
-const PORT = CONF.PORT;
+// const PORT = CONF.PORT;
 // const PORT = 3001;
 
 const app = express();
@@ -44,7 +44,7 @@ new Database().connect().then((db) => {
 app.models = new Model(app);
 app.routes = new AppRouter(app);
 
-app.server.listen(PORT, () => {
+app.server.listen(process.env.PORT, () => {
     console.log(`App is running on the port ${app.server.address().port}`);
 });
 

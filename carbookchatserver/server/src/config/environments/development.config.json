@@ -6,5 +6,5 @@
     "server": {
         "port": 3002
     },
-    "database" : "mongodb://localhost:27017/cbchatapp"
+    "database" : "mongodb://ds123799.mlab.com:23799/heroku_w30hqvw9"
 }
